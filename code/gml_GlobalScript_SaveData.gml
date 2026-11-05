@@ -18,7 +18,7 @@ if (arg0)
 			var _h = display_get_height();
 			window_set_rectangle(0, 0, _w, _h);
 			break;
-		case 2:
+		default:
 			window_set_fullscreen(true);
 			break;
 	}
@@ -27,4 +27,9 @@ if (arg0)
 }
 
 if (false) //cutting off vanilla code
+/// END
+
+/// REPLACE
+apply_settings();
+/// CODE
 /// END
